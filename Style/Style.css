@@ -1,6 +1,6 @@
 #head{
 	text-align: center;
-    height: 20%;
+    height: 15%;
     margin: 0%;
     padding: 0%;
     
@@ -8,8 +8,25 @@
 }
 #navigation {
     text-align: center;   
-    height: 20%;
     margin: 0%;
     padding: 0%;
  
+}
+#headlogo{
+    height: 90%;
+    border-radius: 0 0 50px 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+#logodiv{
+
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+#logodiv2{
+    margin-right: : 8%;
+    float:right;
+    z-index: 1;
+    position: relative;
 }
