@@ -30,3 +30,38 @@
     z-index: 1;
     position: relative;
 }
+
+
+
+
+
+p , h1 {
+    text-align: center;
+}
+
+
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+.column1,  .column2,  .column3{
+    width: 360px;
+    
+}
+
+.column1,  .column2{
+    float: left;
+    margin-right: 60px;
+}
+
+.column3{
+    float: left;
+}
+#gallery{
+    overflow: hidden;
+    margin: 0em auto 0em auto;
+    padding: 1em 0em 1em 0em;
+    text-align:center;
+    
+}
