@@ -83,7 +83,7 @@ li a:hover{
 	margin-top:-150px;
 	animation:movedown 2s;
 }
-#content{
+#content-chpp{
 	background-color:transparent;
 	padding:10px;
 	color:white;
@@ -102,13 +102,13 @@ li a:hover{
 	margin-left:40px;
 	margin-top:-30px;
 }
-.content1{
+.content1-chpp{
 	font-family:Impact;
 	font-size:60px;
 	text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
 	margin-left:20px;
 }
-.content2{
+.content2-chpp{
 	font-family:Verdana;
 	font-size:20px;
 	text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
