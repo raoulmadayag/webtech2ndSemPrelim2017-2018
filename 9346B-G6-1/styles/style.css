@@ -1,0 +1,144 @@
+@keyframes fadein{
+	from {opacity:0;}
+	to   {opacity:1;}
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes moveleft{
+	0%{margin-left:1350px;}
+	100%{}
+}
+@keyframes movedown{
+	0%{margin-top:-1000px;}
+	100%{}
+}
+body{
+	animation:fadein 2s;
+	background:linear-gradient(to right,white,#00B269,white);
+}
+p{
+	text-indent:25px;
+	text-align:justify
+}
+footer{
+	font-family:"Courier New";
+	background-color:transparent;
+	padding:10px;
+	color:white;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#111;
+}
+li{
+    float:left;
+}
+li a{
+	font-family:"Verdana";
+	font-size:20px;
+	text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
+    display:block;
+    color:white;
+    text-align:center;
+    padding-left:17px;
+	padding-right:17px;
+	padding-top:13px;
+	padding-bottom:13px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color:#00C852;
+	border-radius:5px;
+	transition: 1s;
+}
+#wrapper{
+    width:1350px;
+	margin:auto;
+}
+#header{
+	width:1350px;
+	height:250px;
+	background-image:url("../images/Header.jpg");
+	background-repeat:no-repeat;
+}
+#header_logo{
+	padding-left:2%;
+	padding-top:4%;
+	animation:moveleft 2s;
+}
+#header_title{
+	margin-left:200px;
+	margin-top:-150px;
+	animation:movedown 2s;
+}
+#content-chpp{
+	background-color:transparent;
+	padding:10px;
+	color:white;
+}
+.title{
+	font-family:"Kristen ITC";
+    text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
+	color:white;
+	font-size:75px;
+}
+.subtitle{
+	font-family:"Mistral";
+    text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
+	color:white;
+	font-size:45px;
+	margin-left:40px;
+	margin-top:-30px;
+}
+.content1-chpp{
+	font-family:"Impact";
+	font-size:60px;
+	text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
+	margin-left:20px;
+}
+.content2-chpp{
+	font-family:"Verdana";
+	font-size:20px;
+	text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
+}
+#image{
+	background-image:url("../images/FarmToMarket.png");
+	float:left;
+	width:500px;
+	height:375px;
+	margin-right:10px;
+	margin-bottom:5px;
+	margin-top:15px;
+	border:1px solid black;
+	border-radius:10px;
+	transition:0.5s ease-in;
+}
+#image2{
+	background-image:url("../images/StrawberryField.png");
+	float:right;
+	width:500px;
+	height:375px;
+	margin-top:50px;
+	margin-left:10px;
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius:10px;
+	transition:0.5s ease-in;
+}
