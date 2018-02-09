@@ -1,0 +1,148 @@
+html {
+
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body {
+
+	background:radial-gradient(circle, #4682b4, #00bfff, aqua);
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+.containerPAO {
+
+	position: absolute;
+	width: 100%;
+
+}
+
+p {
+
+	text-align: justify;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+#header {
+
+	background-image: url("./images/Header.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 240px;
+	height: 240px;
+	padding-right: 1%;
+
+}
+
+#header_logo {
+
+	padding-left:2%;
+	padding-top:2.5%;
+	padding-bottom: 2%;
+
+}
+
+#header_title {
+
+	margin-left:220px;
+	margin-top:-180px;
+
+}
+
+.title {
+
+	font-family:"Kristen ITC";
+    text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
+	color:white;
+	font-size:75px;
+
+}
+.subtitle {
+
+	font-family:"Mistral";
+    text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
+	color:white;
+	font-size:45px;
+	margin-left:40px;
+	margin-top:-30px;
+
+}
+
+#Top {
+
+	width: 80%;
+	position: absolute;
+	left: 50%;
+
+}
+
+#Middle {
+
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	
+}
+
+#Bottom {
+
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	
+}
+
+#r-contentT img {
+
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+
+}
+
+#l-content img {
+
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+
+}
+
+#r-contentB img {
+
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+
+}

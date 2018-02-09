@@ -75,7 +75,7 @@ li a:hover{
 #header{
 	width:1350px;
 	height:250px;
-	background-image:url("../images/Header.jpg");
+	background-image:url("images/Header.jpg");
 	background-repeat:no-repeat;
 }
 #header_logo{
