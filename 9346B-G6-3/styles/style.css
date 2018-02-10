@@ -26,6 +26,12 @@
 	0%{margin-top:-1000px;}
 	100%{}
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 body{
 	animation:fadein 2s;
 	background:linear-gradient(to right,white,#00B269,white);
@@ -78,6 +84,7 @@ li a:hover{
 	background-image:url("images/Header.jpg");
 	background-repeat:no-repeat;
 }
+
 #logodiv{
 	padding-left:2%;
 	padding-top:4%;
