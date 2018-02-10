@@ -41,13 +41,14 @@ p{
 	text-align:justify
 }
 footer{
-  padding:10px;
-  color:#ffffff;
-  background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,1)); 
-  text-align: center;
-  padding: 1em;
-  margin-left: 90px;
-  margin-right: 90px;
+	width: 90%;
+	padding: 0 5% 0 5%;
+	margin-top: 2.5%;
+	float: left;
+	display: inline;
+	color:white;
+	background-color:black; 
+	text-align: center;
 }
 ul{
     list-style-type:none;
