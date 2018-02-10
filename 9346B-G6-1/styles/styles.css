@@ -1,9 +1,8 @@
 html {
 
-	height: 100%;
-	width: 100%;
 	padding: 0px;
 	margin: 0px;
+	padding-left: 2.3%;
 
 }
 
@@ -13,6 +12,7 @@ body {
 	background-attachment: fixed;
 	padding: 0px;
 	margin: 0px;
+	width: 100%;
 
 
 }
@@ -20,7 +20,7 @@ body {
 .containerPAO {
 
 	position: absolute;
-	width: 100%;
+	width: 95%;
 
 }
 
@@ -30,20 +30,22 @@ p {
 
 }
 
-ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 
 li {
-    float: left;
+    display: inline;
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -54,6 +56,11 @@ li a:hover {
     background-color: #111;
 }
 
+h4 {
+
+	font-size: 40px;
+
+}
 
 #header {
 
@@ -83,7 +90,7 @@ li a:hover {
 .title {
 
 	font-family:"Kristen ITC";
-    text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
+  text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
 	color:white;
 	font-size:75px;
 
@@ -91,7 +98,7 @@ li a:hover {
 .subtitle {
 
 	font-family:"Mistral";
-    text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
+  text-shadow: -1px -1px black, -1px 1px black, 2px -1px black, -1px -1px black;
 	color:white;
 	font-size:45px;
 	margin-left:40px;
@@ -101,9 +108,23 @@ li a:hover {
 
 #Top {
 
-	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
 	position: absolute;
 	left: 50%;
+
+}
+
+#r-contentT {
+
+	margin-top: -10%;
+
+}
+
+#Top-Content1 {
+
+	float: left;
+	position: relative;
 
 }
 
@@ -125,10 +146,13 @@ li a:hover {
 
 #r-contentT img {
 
-	border-radius: 50%;
 	width: 450px;
 	height: 450px;
+	position: relative;
+	float: right;
+	border-radius: 50%;
 
+	
 }
 
 #l-content img {
