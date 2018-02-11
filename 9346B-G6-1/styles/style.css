@@ -1,7 +1,10 @@
+html {
+	width: 100%;
+}
+
 body {
 	font-family: 'Arial', 'Times New Roman';
 	background-attachment: fixed;
-
 	height: 100%;
 	width: 100%;
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(1, 120, 165));
@@ -10,21 +13,19 @@ body {
 /* head */
 
 #header {
-
 	height: 240px;
 	padding-right: 1%;
-
 }
 #head {
 	background-image: url("../images/Header.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 240px;
-	height: 240px;
 	padding-right: 1%;
 	font-family:"Kristen ITC";
   	text-shadow: -2px -1px black, -1px 1px black, 2px -1px black, -2px -2px black;
 	color:white;
 	font-size:75px;
+	width: 100%;
 
 }
 #headlogo1 {
@@ -93,10 +94,6 @@ body {
     padding: 20px 50px;
     height: 100%;
     position: absolute;
-}
-.containerO {
-	margin-left: 270px;
-
 }
 
 /* content */
@@ -269,15 +266,17 @@ body {
 }
 .gallery1-column1 {
 	float:left;
-	margin-right: 20px;
+	width: 33%;
+	padding-right: .5%;
 }
 .gallery1-column2 {
 	float:left;
-	margin-right: 20px;
+	width: 33%;
 }
 .gallery1-column3 {
 	float:left;
-	margin-right: 20px;
+	width: 33%;
+	padding-left: .5%;
 }
 
 /* logo */
