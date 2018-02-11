@@ -26,6 +26,12 @@
 	0%{margin-top:-1000px;}
 	100%{}
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 body{
 	animation:fadein 2s;
 	background:linear-gradient(to right,white,#00B269,white);
@@ -35,10 +41,14 @@ p{
 	text-align:justify
 }
 footer{
-	font-family:"Courier New";
-	background-color:transparent;
-	padding:10px;
+	width: 90%;
+	padding: 0 5% 0 5%;
+	margin-top: 2.5%;
+	float: left;
+	display: inline;
 	color:white;
+	background-color:black; 
+	text-align: center;
 }
 ul{
     list-style-type:none;
@@ -78,6 +88,7 @@ li a:hover{
 	background-image:url("images/Header.jpg");
 	background-repeat:no-repeat;
 }
+
 #logodiv{
 	padding-left:2%;
 	padding-top:4%;
@@ -90,18 +101,15 @@ li a:hover{
 #header_logo{
 	padding-left:2%;
 	padding-top:4%;
-	animation:moveleft 2s;
 }
 #header_title{
 	margin-left:200px;
-	margin-top:-150px;
-	animation:movedown 2s;
+	margin-top:-150px;;
 }
 #header_title2{
 	margin-left:200px;
 	margin-top:-150px;
 	text-align: center;
-	animation:movedown 2s;
 }
 #content-chpp{
 	background-color:transparent;
