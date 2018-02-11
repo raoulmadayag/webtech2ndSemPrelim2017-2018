@@ -203,6 +203,7 @@ body {
 #menu {
  background-color: #00266b;
  border-radius: 5px;
+ width: 101%;
 }
 #menu li{
 	list-style-type: none;
@@ -229,44 +230,26 @@ body {
 
 /* gallery */
 
-.gallery1-column1 img {
-
-	width: 380px;
-	height: 380px;
-	border-radius: 50%;
-}
-
-.gallery1-column1 h4 {
-	text-align: center;
-	font-size: 20px;
-}
-
-.gallery1-column2 img {
-
-	width: 380px;
-	height: 380px;
-	border-radius: 50%;
-}
-
-.gallery1-column2 h4 {
-	text-align: center;
-	font-size: 20px;
-}
-
-.gallery1-column3 img {
-
-	width: 380px;
-	height: 380px;
-	border-radius: 50%;
-}
-.gallery1-column3 h4 {
-	text-align: center;
-	font-size: 20px;
-}
 .gallery1-column1 {
 	float:left;
 	width: 33%;
 	padding-right: .5%;
+}
+#gallery1 div img {
+	width: 100%;
+	border-radius: 50%;
+}
+#gallery1 div h4 {
+	font-size: 20px;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+}
+#gallery1 div p {
+	float: left;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
 }
 .gallery1-column2 {
 	float:left;
