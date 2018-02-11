@@ -16,14 +16,14 @@ body {
 
 #header {
 	height: 240px;
-	background-image: url("../images/Header.jpg");
+	background-image: url("images/Header.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 240px;
 	padding-right: 1%;
 	width: 100%;
 }
 #head {
-	background-image: url("../images/Header.jpg");
+	background-image: url("images/Header.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 240px;
 	padding-right: 1%;
