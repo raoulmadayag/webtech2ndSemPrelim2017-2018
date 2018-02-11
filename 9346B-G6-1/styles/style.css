@@ -234,10 +234,18 @@ body {
 .gallery1-column1 img {
 
 	width: 380px;
+<<<<<<< HEAD
 	border-radius: 50%;
 }
 
 .gallery1-column1 h4{
+=======
+	height: 380px;
+	border-radius: 50%;
+}
+
+.gallery1-column1 h4 {
+>>>>>>> parent of edb2f94... changes in css peace and order
 	text-align: center;
 	font-size: 20px;
 }
@@ -245,6 +253,7 @@ body {
 .gallery1-column2 img {
 
 	width: 380px;
+<<<<<<< HEAD
 	border-radius: 50%;
 }
 
@@ -259,12 +268,35 @@ body {
 	border-radius: 50%;
 }
 .gallery1-column3 h4{
+=======
+	height: 380px;
+	border-radius: 50%;
+}
+
+.gallery1-column2 h4 {
+	text-align: center;
+	font-size: 20px;
+}
+
+.gallery1-column3 img {
+
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+}
+.gallery1-column3 h4 {
+>>>>>>> parent of edb2f94... changes in css peace and order
 	text-align: center;
 	font-size: 20px;
 }
 .gallery1-column1 {
 	float:left;
+<<<<<<< HEAD
 	margin-right: 20px;
+=======
+	width: 33%;
+	padding-right: .5%;
+>>>>>>> parent of edb2f94... changes in css peace and order
 }
 .gallery1-column2 {
 	float:left;
