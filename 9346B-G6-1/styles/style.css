@@ -1,5 +1,6 @@
 html {
 	width: 100%;
+	position: relative;
 }
 
 body {
@@ -86,14 +87,12 @@ body {
 	margin: 0 auto;
     padding: 20px 50px;
     height: 100%;
-    position: absolute;
 }
 .containerPAO {
 	width: auto;
     margin: 0 auto;
     padding: 20px 50px;
     height: 100%;
-    position: absolute;
 }
 
 /* content */
