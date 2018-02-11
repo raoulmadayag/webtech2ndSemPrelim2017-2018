@@ -2,8 +2,7 @@ body {
 	font-family: 'Arial', 'Times New Roman';
 	background-attachment: fixed;
 
-	height: 100%;
-	width: 100%;
+	    height: 200px;
     background: linear-gradient(to right, rgba(255,0,0,0), rgb(1, 120, 165));
 }
 
@@ -87,15 +86,11 @@ body {
     width: auto;
 	margin: 0 auto;
     padding: 20px 50px;
-    height: 100%;
-    position: absolute;
 }
 .containerPAO {
 	width: auto;
     margin: 0 auto;
     padding: 20px 50px;
-    height: 100%;
-    position: absolute;
 }
 .containerO {
 	margin-left: 270px;
@@ -104,106 +99,106 @@ body {
 
 /* content */
 
-.Top {
-	position: relative;
-	float: left;
-	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
 #r-contentT {
-	float: right;
-	width: 40%;
-	position: relative;
+	margin-top: -14%;
+
 }
 
-#r-contentT img {
-	border-radius: 50%;
-  width: 80%;
-  float: right;
-  position: relative;
+
+.Top h4 {
+	margin-bottom: 10%;
+	margin-top: 2%;
 }
 
 #Top-Content1 {
+
+	margin-top: 14%;
 	position: relative;
-	float: left;
-	width: 59%;
+	margin-right: 40%;
 }
 
 #Top-Content2 {
 	position: relative;
-	float: left;
-	width: 59%;
+	margin-right: 40%;
 }
 
-.Middle {
+#Middle-Content  {
+	display: inline-block;
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#Middle-Content{
+	width: 729px;
+}
+#Middle-Content p{
+	margin-top: -80px;
+}
+.Middle h4{
+	float: right;
+    margin-right: 35%;
+  	margin-top: 165px;
+}
+
+.Middle{
 	position: relative;
-  float: right;
+    height: 450px;
+    margin-top: 80px;
+}
+
+#Bottom {
+
 	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 2%;
+	position: absolute;
+	left: 50%;
+}
+.Bottom h4 {
+	margin-top: 135px;
+}
+#Bottom-Content2{
+	width: 1077px;
+	margin-top: -280px;
 }
 
-.Middle h4 {
-  position: relative;
-  float: right;
-  margin-right: 42%;
+#r-contentT img {
+	border-radius: 50%;
+    width: 450px;
+    height: 540px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 180;
 }
-
 #l-content {
-  float: left;
-	width: 40%;
-	position: relative;
+	display: inline-block;
+    float: left;
 }
 
 #l-content img {
 	border-radius: 50%;
-  width: 80%;
-  float: left;
-  position: relative;
-  margin-top: -12%;
-}
-
-#Middle-Content {
-  width: 59%;	
-	position: relative;
-	float: left;
-}
-
-.Bottom {
-	position: relative;
-	float: left;
-	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-#r-contentB {
-  float: right;
-	width: 40%;
-	position: relative;
+	width:450px;
+    height: 540px;
+    display: inline-block;
+    margin-top: -20px;
 }
 
 #r-contentB img {
 	border-radius: 50%;
-  width: 80%;
-  float: right;
+    width: 450px;
+    height: 540px;
+    float: right;
+    margin-top: -175px;
+}
+#Bottom-Content{
+	height: 500px;
+	width: 1871px;
+}
+#Bottom-Content2{
+	margin-top: -280px;
+}
+#Bottom-Content ol{
+	width: 55%;
 }
 
-#Bottom-Content {
-	float: left;
-	position: relative;
-	width: 59%;
-
-}
-
-#Bottom-Content2 {
-	float: left;
-	position: relative;
-	width: 59%;
-}
 
 /* menu */
 
@@ -239,11 +234,10 @@ body {
 .gallery1-column1 img {
 
 	width: 380px;
-	height: 380px;
 	border-radius: 50%;
 }
 
-.gallery1-column1 h4 {
+.gallery1-column1 h4{
 	text-align: center;
 	font-size: 20px;
 }
@@ -251,11 +245,10 @@ body {
 .gallery1-column2 img {
 
 	width: 380px;
-	height: 380px;
 	border-radius: 50%;
 }
 
-.gallery1-column2 h4 {
+.gallery1-column2 h4{
 	text-align: center;
 	font-size: 20px;
 }
@@ -263,10 +256,9 @@ body {
 .gallery1-column3 img {
 
 	width: 380px;
-	height: 380px;
 	border-radius: 50%;
 }
-.gallery1-column3 h4 {
+.gallery1-column3 h4{
 	text-align: center;
 	font-size: 20px;
 }
@@ -285,26 +277,26 @@ body {
 
 /* logo */
 
-#logodiv img {
+#logodiv img{
 	width: 80px;
 	margin-right: -9px;
 }
-#logodiv2 img {
+#logodiv2 img{
 	width: 100px;
 }
 
 /* footer */
 
 footer {
-	width: 107.3%;
+	width: 100%;
     float: left;
     display: inline;
     color: white;
     background-color: black;
     text-align: center;
-    position: relative;
+    position: absolute;
     margin-left: -58px;
-    margin-top: 10%;
+    margin-top: 660px;
 }
 
 
