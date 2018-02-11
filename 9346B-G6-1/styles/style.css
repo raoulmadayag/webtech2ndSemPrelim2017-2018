@@ -4,7 +4,8 @@ html {
 }
 
 body {
-	font-family: 'Arial', 'Times New Roman';
+	font-family: 'New Century Schoolbook, TeX Gyre Schola, serif';
+	font-size: 19px;
 	background-attachment: fixed;
 	height: 100%;
 	width: 100%;
@@ -15,7 +16,11 @@ body {
 
 #header {
 	height: 240px;
+	background-image: url("../images/Header.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 240px;
 	padding-right: 1%;
+	width: 100%;
 }
 #head {
 	background-image: url("../images/Header.jpg");
@@ -181,8 +186,9 @@ body {
 
 #r-contentB img {
 	border-radius: 50%;
-  width: 80%;
-  float: right;
+  	width: 80%;
+  	float: right;
+  	margin-top: -109px;
 }
 
 #Bottom-Content {
