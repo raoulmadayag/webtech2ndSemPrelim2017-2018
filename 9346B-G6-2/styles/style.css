@@ -9,6 +9,7 @@ body{
     z-index:1;
     position:relative;
     padding: 10px;
+
 }
 
 
@@ -98,15 +99,40 @@ li a:hover {
     width: 100%;
     height: auto;
     border-radius: 50px 50px 50px 50px;
+    background: #2db34a;
+    border-radius: 50%;
+    height:300px;
+    position:top;
+    width:100px;
+
+    animation: bounceIn 2s .5s infinite;
       
 
 }
-h4{
+h4 , a{
     font-size: 20px;
     font-family: fantasy;
 }
 
 
+
+
+
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 
 /** INCLUSION.HTML**/
@@ -165,6 +191,8 @@ p{
     border-radius: 0px 0px 0px 0px; 
     padding: 40px 20px;
     opacity:0.9;
+    
+
 
 }
 
@@ -191,6 +219,7 @@ p{
     width: 100%;
     height: auto;
     border-radius: 50px 50px 50px 50px;
+
       
 
 }
@@ -218,6 +247,8 @@ img:hover {
     width: 100%;
     height: auto;
     border-radius: 50px 50px 50px 50px;
+    background: #2db34a;
+ 
       
 
 }
@@ -234,3 +265,5 @@ footer {
     color:white;
     background-color:#111;
 }
+
+
