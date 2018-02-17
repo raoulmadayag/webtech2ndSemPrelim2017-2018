@@ -1,0 +1,266 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+#header{
+	background-image: url("../images/ai1.jpg");
+	background-attachment: fixed;
+  background-size: 100vw;
+  opacity: 0.8;
+  animation: fade 2s linear;
+  position: relative;
+  padding: 20px;
+  height: 70vh;
+  transition: 500ms;
+  background-repeat: no-repeat;
+    
+}
+@keyframes fade {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+}
+#header:hover{
+    background-size: 100%;
+    display:block;
+}
+
+#header_logo{
+	margin-top: 60px;
+	float: right;
+	width: 100px;
+	position: relative;
+	left: -53%; 
+  animation: movingTopToBottom 1.5s linear ;
+  display: inline-block;
+}
+@keyframes movingTopToBottom {
+  from {transform: translateY(200px);}
+    to {transform: translateY(0px);}
+}
+#header_logo img{
+  width: 16vw;
+  height: 30vh;
+
+}
+.title{
+	margin-top:350px;
+	font-size: 75px;
+    font-style: normal;
+    font-family:bookman;
+    text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    text-align: center;
+    color: white;
+ 	animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+       margin-left: 100%;
+       width: 0%;
+	}to {
+       margin-left: 0%;
+       width: 100%;
+     }
+}
+
+.subtitle{
+	margin-bottom:30px;
+    font-size: 35px;
+    font-style:oblique;
+    font-family: bookman;
+ 	text-align: center;
+ 	 text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    color: white;
+animation: moving 2s ;
+}
+
+@keyframes moving {
+    from {transform: translateX(-1000px);}
+    to {transform: translateX(0px);}
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style-type: none;
+  width: 100%;
+	
+}
+li{
+  float: left;
+  border: 2px solid black;
+  width: 49.13vw;
+  height: 4vh;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+li:hover {
+  background-position: left bottom;
+}
+a{
+ text-align: center;
+  font-size: 16px;
+  line-height: 30px; 
+  color: black;
+  transition: all .3s ease-out;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;  
+}
+#top-featured-content{
+	background-image: url("../images/1.gif");
+    background-color: #F4F6F7;
+    border-radius: 0px 0px 0px 0px; 
+    padding: 40px 20px;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.9;
+    animation: fade 2s linear;
+    position: relative;
+    height: 85vh;
+    transition: 500ms;
+
+    
+}
+@keyframes fade {
+  left: 53%; 
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+h2{
+
+    font-size: 50px;
+    font-family: verdana;
+    text-shadow:3px 3px #000;
+    color:   #ecb3ff;
+    text-align: center;
+}
+
+
+h3{
+    font-size: 35px;
+    font-style: italic;
+    font-family:verdana;
+    color:  #ecb3ff;
+    text-align: center;
+
+}
+p{
+  font-size: 25px;
+  font-family: tahoma;
+  text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-align: center;
+  color:  #ecb3ff;
+  margin: 30px;
+}
+
+.container1I {
+  margin: 0;
+  background-color: #111;
+  padding: 0;
+  opacity:0.9;
+  column-count: 3;
+  width: 100%;
+  colum-margin: 0;
+}
+
+.container1I img {
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+
+}
+
+img:hover {
+ transform: scale(1.1);
+  margin:0;
+  padding: 0;
+}
+#middle-featured-content{
+	background-image: url("../images/1.gif");
+  background-color: #F4F6F7;
+  border-radius: 0px 0px 0px 0px; 
+  padding: 40px 20px;
+  background-attachment: fixed;
+  background-size: 100%;
+  opacity: 0.9;
+  animation: fade 2s linear;
+  position: relative;
+  height: 50vh;
+  transition: 500ms;
+    
+    
+}
+.container2I {
+    margin: 0;
+    background-color: #111;
+    padding: 0;
+    opacity:0.9;
+    column-count: 3;
+    width: 100%;
+    colum-margin: 0;
+}
+
+.container2I img {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+
+}
+
+img:hover {
+ transform: scale(1.1);
+  margin:0;
+  padding: 0;
+}
+#bottom-featured-content{
+	background-image: url("../images/1.gif");
+    background-color: #F4F6F7;
+    border-radius: 0px 0px 0px 0px; 
+    padding: 40px 20px;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.9;
+    animation: fade 2s linear;
+    position: relative;
+    height: 50vh;
+    transition: 500ms;
+}
+footer { 
+ 
+    padding:  2px;
+    opacity:0.9;
+    color:white;
+    background-color:#999;
+}
