@@ -90,13 +90,12 @@ h1{
     font-size: 40px;
 }
 #header_title{
-        width: 65%;
+    width: 100%;
     text-align: center;
-    margin-left: 19%;
-    margin-top: 350px;
+    margin-top: 55%;
     color: white;
     font-family: "Natyl-Demo", 'Arial';
-    font-size: 40px;
+    font-size: 3vw;
 }
 .subtitle{
   margin-top: -15%;
