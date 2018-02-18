@@ -1,0 +1,212 @@
+@keyframes fadein{
+	from {opacity:0;}
+	to   {opacity:1;}
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes wobble {
+  	0% {transform: translateY(0%);}
+  	15% {transform: translateY(-5%);}
+  	30% {transform: translateY(4%);}
+  	45% {transform: translateY(-3%);}
+	60% {transform: translateY(2%);}
+	75% {transform: translateY(-1%);}
+	100% {transform: translateY(0%);}
+}
+body{
+	animation:fadein 2s;
+	background:linear-gradient(150deg, #FAFFD1 0%, #FAFFD1 65%, rgba(44, 116, 68, 0.8) 65%, rgba(44, 116, 68, 0.8) 80%, #202020 80%, #202020 100%);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+p{
+	text-indent:25px;
+	text-align:justify
+}
+footer{
+	font-family:"Courier New";
+	padding-top:50px;
+	padding-bottom:10px;
+	color:black;
+	text-align:center;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#202020;
+}
+li{
+    float:left;
+}
+li a{
+	font-family:"Oswald-Light";
+	font-size:20px;
+    display:block;
+    color:white;
+    text-align:center;
+    padding-left:17px;
+	padding-right:17px;
+	padding-top:13px;
+	padding-bottom:13px;
+    text-decoration:none;
+    letter-spacing: 3px;
+}
+li a:hover{
+    background-color:rgba(44, 116, 68, 0.5);
+	transform:scale(1.1);
+	transition:0.3s ease-in-out;
+}
+#wrapper{
+    width:1350px;
+	margin:auto;
+	border-radius:10px;
+	background:rgba(255,255,255,0.5);
+}
+#header{
+	width:1350px;
+	height:250px;
+	border-radius:10px 10px 0px 0px;
+	background:rgba(44, 116, 68, 0.7);
+}
+#header_logo{
+	padding-left:2%;
+	padding-top:4%;
+
+}
+
+#logodiv2{
+  	padding-right:2%;
+  	padding-top:1%;
+    float: right;
+}
+#header_title{
+	margin-left:200px;
+	margin-top:-170px;
+	text-align: center;
+}
+#content-chpp{
+	background-color:transparent;
+	padding:10px;
+}
+#image{
+	background-image:url("images/FarmToMarket.png");
+	float:left;
+	width:500px;
+	height:375px;
+	margin-right:10px;
+	margin-bottom:5px;
+	margin-top:15px;
+	border:1px solid black;
+	border-radius:10px;
+	transition:0.5s ease-in;
+}
+#image:hover{
+	transform:scale(1.1);
+	transition:0.3s ease-in-out;
+	box-shadow:10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+#image2{
+	background-image:url("images/StrawberryField.png");
+	float:right;
+	width:500px;
+	height:375px;
+	margin-top:50px;
+	margin-left:10px;
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius:10px;
+	transition:0.5s ease-in;
+}
+#image2:hover{
+	transform:scale(1.1);
+	transition:0.3s ease-in-out;
+	box-shadow:10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.title{
+	font-family:"Harley";
+	font-size:130px;
+	color:white;
+	text-shadow: -2px -1px #202020, -1px 1px #202020, 2px -1px #202020, -2px -2px #202020;
+}
+.subtitle{
+	font-family:"BT";
+	font-size:30px;
+	margin-left:40px;
+	margin-top:-30px;
+	font-weight:bold;
+	color:white;
+	text-shadow: -2px -1px #202020, -1px 1px #202020, 2px -1px #202020, -2px -2px #202020;
+}
+#gallery {
+    width: 100%;
+    height: 10%;
+}
+.gallery {
+	width: 33%;
+	float: left;
+	position: relative;
+}
+.gallery img {
+	width: 100%;
+	position: relative;
+}
+
+#gallery div:nth-child(1) {
+	float: left;
+	padding-right: .5%;
+}
+#gallery div:nth-child(3) {
+	float: right;
+}
+.content1-chpp{
+	font-family:"Harley";
+	font-size:70px;
+	margin-left:20px;
+	color:rgb(75, 150, 100);
+	text-shadow: -2px -1px #202020, -1px 1px #202020, 2px -1px #202020, -2px -2px #202020;
+}
+.content2-chpp{
+	font-family:"Grace";
+	font-size:25px;
+	margin-top:-25px;
+	color:#202020;
+}
+#footer{
+	font-family:"Courier New";
+	padding-top:50px;
+	padding-bottom:10px;
+	color:black;
+	text-align:center;
+}
+@font-face{
+	font-family:"Harley";
+	src:url("../fonts/Harley%20Script%20Regular.ttf");
+}
+@font-face{
+	font-family:"Grace";
+	src:url("../fonts/CoveredByYourGrace.ttf");
+}
+@font-face{
+	font-family:"BT";
+	src:url("../fonts/BetterTogether.ttf");
+}
+@font-face{
+	font-family:"Oswald-Light";
+	src:url("../fonts/oswald/Oswald-Light.ttf");
+}
