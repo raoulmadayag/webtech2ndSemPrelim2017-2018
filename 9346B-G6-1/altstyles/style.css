@@ -1,6 +1,9 @@
 body{
     background: url('images/bg_1.jpg') no-repeat fixed center;
+    background-size: 100%;
     font-family: 'amita-regular';
+    width: 1790px;
+    margin: 0 auto;
 }
 
 /* head */
@@ -105,11 +108,11 @@ h1{
 /* container */
 
 .container{
-	width: 95%;
+	width: 1790px;
     margin: 0 auto;
 }
 .containerPAO{
-    width: 95%;
+    width: 1790px;
     margin: 0 auto;
 }
 
@@ -120,7 +123,9 @@ h1{
     top: 42%;
     left: 7%;
     width: 343px;
-}
+    margin: 0 auto;
+
+    }
 
 #menu ul{
     margin-top: 58px;
