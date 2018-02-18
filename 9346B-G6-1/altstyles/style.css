@@ -1,49 +1,50 @@
+html{
+    padding: 0;
+    margin: 0;
+}
 body{
     background: url('images/bg_1.jpg') no-repeat fixed center;
     background-size: 100%;
     font-family: 'amita-regular';
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     height: 100%;
+    padding: 0;
 }
 
 /* head */
 
 @font-face {
-font-family: "Natyl Demo";
-src: url("fonts/Natyl Demo.eot");
-src: 
-url("fonts/Natyl Demo.woff") format("woff"),
-url("fonts/Natyl Demo.otf") format("opentype"),
-url("fonts/Natyl Demo.svg#filename") format("svg");
+font-family: "Natyl-Demo";
+src: url("fonts/Natyl-Demo.ttf");
 }
 @font-face{
 font-family: "amita-regular";
-src: url("fonts/amita-regular.eot");
-src: 
-url("fonts/amita-regular.woff") format("woff"),
-url("fonts/amita-regular.otf") format("opentype"),
-url("fonts/amita-regular.svg#filename") format("svg")
+src: url("fonts/amita-regular.ttf");
 }
 
 #head{
-    height: 73%;
+    height: 75%;
     float: left;
     background-color: #0000004a;
     position: fixed;
     opacity: 0.9;
     border-radius: 35px;
-    margin-top: 30px;
     background-color: #fffafa29;
-    margin: 4%;
+    margin: 2%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.45);
-    width: 23%;
-    margin-left: 8%;
+    width: 34%;
 } 
+#title {
+    font-size: 3vw;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 55%;
+}
 #headlogo1{
-    width: 150px;
+    width: 100%;
     position: absolute;
     opacity: 0.4;
     left: 65%;
@@ -53,32 +54,30 @@ url("fonts/amita-regular.svg#filename") format("svg")
 
 #headlogo2{
 	position: absolute;
-    width: 175px;
-    left: 30%;
+    width: 45%;
+    left: 28%;
     top: 30px;
 }
 #header_logo img{
     position: absolute;
-    width: 175px;
-    left: 30%;
+    width: 45%;
+    left: 28%;
     top: 30px;
-    height: 24%;
+    height: 40%;
 }
 #header{
-        height: 73%;
+    height: 75%;
     float: left;
     background-color: #0000004a;
     position: fixed;
     opacity: 0.9;
     border-radius: 35px;
-    margin-top: 30px;
     background-color: #fffafa29;
-    margin: 4%;
+    margin: 2%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.45);
-    width: 23%;
-    margin-left: 8%;
+    width: 34%;
 }
 
 h1{
@@ -87,27 +86,19 @@ h1{
     margin-left: 20%;
     margin-top: 225px;
     color: white;
-    font-family: "Natyl Demo", 'Arial';
+    font-family: "Natyl-Demo", 'Arial';
     font-size: 40px;
 }
-.title{
-    width: 65%;
+#header_title{
+    width: 100%;
     text-align: center;
-    margin-left: 15%;
-    margin-top: 225px;
+    margin-top: 55%;
     color: white;
-    font-family: "Natyl Demo", 'Arial';
-    font-size: 40px;
+    font-family: "Natyl-Demo", 'Arial';
+    font-size: 3vw;
 }
 .subtitle{
-    width: 73%;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 225px;
-    color: white;
-    font-family: "Natyl Demo", 'Arial';
-    font-size: 40px;
-    margin-top: 0%;
+  margin-top: -15%;
 }
 /* container */
 
@@ -124,7 +115,7 @@ h1{
 
 #menu{
     position: fixed;
-    top: 42%;
+    top: 47%;
     left: 7%;
     width: 30%;
     margin: 0 auto;
@@ -132,7 +123,7 @@ h1{
     }
 
 #menu ul{
-    margin-top: 58px;
+    margin-top: 85px;
     font-size: 25px;
     opacity: 0.8;
     padding-left: 0;
@@ -147,8 +138,8 @@ h1{
 
 #menu ul li a{
     text-decoration: none;
-    font-size: 30px;
     color: white;
+    font-size: 2vw;
 }
 
 
@@ -160,27 +151,28 @@ h1{
 /* content */
 .Top, .Middle, .Bottom{
     border-bottom: 1px solid #ffffff2e;
+    width: 58%;
 }
 .Top{
     float: right;
-    width: 60%;
     background-color: #fffafa29;
     margin: 4%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
-    margin-top:4%;
+    margin-top: 2%;
 
 }
 #r-contentT img{
-    width: 260px;
+    width: 288px;
     float: left;
     -webkit-transform: rotate(-7deg);
     margin: 4%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
-    margin-top: 5%;
+    margin-top: 15%;
+    height: 400px;
 
 }
 #Top-Content1{
@@ -205,7 +197,6 @@ h1{
 }
 .Middle{
     float: right;
-    width: 60%;
     background-color: #fffafa29;
     margin: 4%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
@@ -215,7 +206,8 @@ h1{
     height: 0%;
 }
 #l-content img{
-    width: 260px;
+    width: 288px;
+    height: 400px;
     float: right;
     -webkit-transform: rotate(7deg);
     margin: 4%;
@@ -238,7 +230,6 @@ h1{
 }
 .Bottom{
     float: right;
-    width: 60%;
     background-color: #fffafa29;
     margin: 4%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
@@ -248,14 +239,15 @@ h1{
     height: 0%;
 }
 #r-contentB img{
-    width: 260px;
+    width: 288px;
+    height: 480px;
     float: left;
     -webkit-transform: rotate(-7deg);
     margin: 4%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
-    margin-top: 12%;
+    margin-top: 18%;
 }
 #Bottom-Content{
     width: 65%;
@@ -282,7 +274,7 @@ h1{
     float: right;
     width: 60%;
     background-color: #fffafa29;
-    margin: 4%;
+    margin: 2%;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
@@ -384,8 +376,8 @@ footer p {
     position: fixed;
     bottom: 0;
     color: white;
-    font-size: 21px;
-    padding: 18px 46px;
+    font-size: 1.5vw;
+    padding: 1% 2%;
     background-color: black;
     opacity: 0.5;
     border-radius: 60px;
