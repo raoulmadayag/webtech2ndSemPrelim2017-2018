@@ -27,7 +27,7 @@ url("fonts/amita-regular.svg#filename") format("svg")
 }
 
 #head{
-    height: 100vh;
+    height: 100%;
     float: left;
     background-color: #0000004a;
     position: fixed;
@@ -64,7 +64,7 @@ url("fonts/amita-regular.svg#filename") format("svg")
     height: 27%;
 }
 #header{
-    height: 100vh;
+    height: 100%;
     float: left;
     background-color: #0000004a;
     position: fixed;
@@ -382,11 +382,12 @@ footer p {
 position: fixed;
     bottom: 0;
     color: white;
-    font-size: 21px;
-    padding: 18px 46px;
+    font-size: 3vh;
+    padding: 2% 3.5%;
     background-color: black;
     opacity: 0.5;
     border-radius: 60px;
-    margin-left: 5.55%;
+    margin-left: 5.5vw;
     width: 20%;
+    text-align: center;
 }
